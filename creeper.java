@@ -24,6 +24,7 @@ public class creeper extends JavaPlugin {
 	}
 	
     public void onPlayerMove(PlayerMoveEvent event) {
+    	
     	Player player = event.getPlayer();
     	Location loc = player.getLocation();
         generateCube(loc, 5);
